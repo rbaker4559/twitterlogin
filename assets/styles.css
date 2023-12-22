@@ -2,23 +2,29 @@
 
 * {
     background-color: white;
+    box-sizing: border-box;
 }
 
 /* CLASSES */
+.main {
+    height: 76%;
+}
 
 /*Logo Class */
 
 .logo {
     float: left;
     width: 49%;
+    height: 
 }
 
-.login img {
+.logo img {
     display: flex;
     float: left;
     align-items: center;
-    height: 100%;
-    width: 50%;
+    padding: 10% 10% auto auto;
+    height: 75%;
+    width: 75%;
     margin: 0;
 }
 
@@ -56,8 +62,8 @@
 }
 
 .login h3 {
-    font-size: 110%;
-    margin-top: 25%;
+    font-size: 150%;
+    margin-top: 15%;
 }
 
 .divider {
@@ -68,21 +74,26 @@
 /* Footer Class */
 
 .footer {
-    margin-top: 50%;
+    padding-top: 10%;
+    height: 25%;
     width: 100%;
     display: flex;
 }
 
 .footer ul {
+    margin-top: 5%;
     display: flex;
+    align-items: center;
+    text-align: center;
     list-style: none;
     flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 0 10% 0 10%;
 }
 
 .footer li {
+    font-size: 90%;
     padding: 0;
-    margin: 0;
+    margin: 1% 1% auto 1%;
     flex-shrink: 1;
     flex-grow: 1;
 }
@@ -111,6 +122,114 @@
     font-weight: 25;
 }
 
+@media only screen and (max-width: 768px) {
+    /* Logo */
+    
+    .logo {
+        display: block;
+        float: none;
+    }
 
+    .logo img {
+        display: block;
+        float: none;
+        align-items: left;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Login */
+
+    .login {
+        display: block;
+        width: 100%;
+        padding: 10%; 
+    }
+
+    .login h1 {
+        font-size: 250%;
+    }
+
+    .login-options{
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: auto;
+        padding: 1%;
+    }
+    
+    .footer ul {
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 0 10% 0 10%;
+    }
+    
+    .footer li {
+        margin: 0;
+        flex-shrink: 1;
+        flex-grow: 1;
+        text-decoration: none;
+        padding: 0 1% 0 1%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    /* Logo */
+    
+    .logo {
+        display: block;
+        float: none;
+    }
+
+    .logo img {
+        float: none;
+        align-items: left;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Login */
+
+    .login {
+        display: block;
+        width: 100%;
+        padding: 10%; 
+    }
+
+    .login h1 {
+        font-size: 250%;
+    }
+
+    .login-options{
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: auto;
+        padding: 1%;
+    }
+    
+    .footer ul {
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 0 10% 0 10%;
+=    }
+    
+    .footer li {
+        margin: 0;
+        flex-shrink: 1;
+        flex-grow: 1;
+        text-decoration: none;
+        padding: 0 1% 0 1%;
+    }
+
+}
 
 
