@@ -1,0 +1,116 @@
+/* UNIVERSAL */
+
+* {
+    background-color: white;
+}
+
+/* CLASSES */
+
+/*Logo Class */
+
+.logo {
+    float: left;
+    width: 49%;
+}
+
+.login img {
+    display: flex;
+    float: left;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin: 0;
+}
+
+/* Login Class */
+.login {
+    align-items: right;
+    float: right;
+    width: 50%;
+}
+
+.login h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 400%;
+    margin: 5% auto 15% auto;
+}
+
+.login h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+}
+
+.login-options{
+    width: 50%;
+}
+
+.login button {
+    border: solid grey;
+    height: 40px;
+    margin: 1% auto 1% auto;
+    width: 100%;
+    border-radius: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.login h3 {
+    font-size: 110%;
+    margin-top: 25%;
+}
+
+.divider {
+    text-align: center;
+    font-size: 100%;
+}
+
+/* Footer Class */
+
+.footer {
+    margin-top: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer li {
+    padding: 0;
+    margin: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+/*Commening out LI w/o flex box
+
+.footer li {
+    display: inline;
+    text-decoration: none;
+    padding: 0;
+    margin: auto 1% auto 1%;    
+}
+*/
+
+/* ID */
+
+#create-account {
+    background-color: lightskyblue;
+}
+
+#sign-in {
+    color: skyblue;
+}
+
+#disclaimer {
+    font-weight: 25;
+}
+
+
+
+
